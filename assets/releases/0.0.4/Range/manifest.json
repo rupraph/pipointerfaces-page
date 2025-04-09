@@ -1,0 +1,13 @@
+{
+  "name": "Pipo",
+  "version": "v0.0.4",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "merged.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
