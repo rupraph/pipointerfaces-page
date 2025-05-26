@@ -1,4 +1,4 @@
-import{_ as i,c as n,b as t,a as o,e as a,o as r}from"./app-y3Kzckwg.js";const l={};function c(s,e){return r(),n("div",null,[t(` ::: warning Prototype
+import{_ as i,c as n,b as t,a as o,e as a,o as r}from"./app-C_eMT4a2.js";const l={};function c(s,e){return r(),n("div",null,[t(` ::: warning Prototype
 The modules are still under development. Hence these directions are only valid for protytpe testing.
 Note: some features are not yet implemented, and some are not mature yet.
 
@@ -17,4 +17,4 @@ Any feedback is welcome !
     - enter your credentials
     - click save
     - if succesfull, Pipo will restart, and after a few seconds, the Wifi Led on the pipo should start slowly pulsing. This means pipo is connected and running
-  - If pipo can connect to previous wifi, it will do automatically `)])}const u=i(l,[["render",c]]),h=JSON.parse('{"path":"/manual/configaccess.html","title":"Wifi & Config page","lang":"en-US","frontmatter":{"title":"Wifi & Config page","order":1},"git":{"createdTime":1748256391000,"updatedTime":1748256391000,"contributors":[{"name":"Rup","username":"Rup","email":"rupertrenevier@hotmail.com","commits":1,"url":"https://github.com/Rup"}]},"readingTime":{"minutes":1.97,"words":591},"filePathRelative":"manual/configaccess.md","localizedDate":"May 26, 2025"}');export{u as comp,h as data};
+  - If pipo can connect to previous wifi, it will do automatically `)])}const u=i(l,[["render",c]]),h=JSON.parse('{"path":"/manual/configaccess.html","title":"WiFi & Page access","lang":"en-US","frontmatter":{"title":"WiFi & Page access","order":1},"git":{"createdTime":1748266085000,"updatedTime":1748266085000,"contributors":[{"name":"Rup","username":"Rup","email":"rupertrenevier@hotmail.com","commits":1,"url":"https://github.com/Rup"}]},"readingTime":{"minutes":1.97,"words":591},"filePathRelative":"manual/configaccess.md","localizedDate":"May 26, 2025"}');export{u as comp,h as data};
