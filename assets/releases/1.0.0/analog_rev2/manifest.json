@@ -1,12 +1,12 @@
 {
-  "name": "Pipo range_rev1_1",
-  "version": "0.0.8",
+  "name": "Pipo analog_rev2",
+  "version": "1.0.0",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "merged_range_rev1_1_0.0.8-1-gcc2fa1b.bin",
+          "path": "merged_analog_rev2_1.0.0.bin",
           "offset": 0
         }
       ]

@@ -1,4 +1,4 @@
-import{_ as i,c as n,a as t,b as o,d as a,o as r}from"./app-CWAL0wsA.js";const c={};function l(s,e){return r(),n("div",null,[t(` ::: warning Prototype
+import{_ as i,c as n,a as t,b as o,d as a,o as r}from"./app-D8Z60PoS.js";const c={};function l(s,e){return r(),n("div",null,[t(` ::: warning Prototype
 The modules are still under development. Hence these directions are only valid for protytpe testing.
 Note: some features are not yet implemented, and some are not mature yet.
 
@@ -17,4 +17,4 @@ Any feedback is welcome !
     - enter your credentials
     - click save
     - if succesfull, Pipo will restart, and after a few seconds, the Wifi Led on the pipo should start slowly pulsing. This means pipo is connected and running
-  - If pipo can connect to previous wifi, it will do automatically `)])}const u=i(c,[["render",l]]),h=JSON.parse('{"path":"/manual/configaccess.html","title":"WiFi & Page access","lang":"en-US","frontmatter":{"title":"WiFi & Page access","order":1},"git":{"createdTime":1766156655000,"updatedTime":1766156655000,"contributors":[{"name":"Rup","username":"Rup","email":"rupertrenevier@hotmail.com","commits":1,"url":"https://github.com/Rup"}]},"readingTime":{"minutes":1.97,"words":591},"filePathRelative":"manual/configaccess.md","localizedDate":"December 19, 2025"}');export{u as comp,h as data};
+  - If pipo can connect to previous wifi, it will do automatically `)])}const u=i(c,[["render",l]]),h=JSON.parse('{"path":"/manual/configaccess.html","title":"WiFi & Page access","lang":"en-US","frontmatter":{"title":"WiFi & Page access","order":1},"git":{"createdTime":1766239200000,"updatedTime":1766239200000,"contributors":[{"name":"Rup","username":"Rup","email":"rupertrenevier@hotmail.com","commits":1,"url":"https://github.com/Rup"}]},"readingTime":{"minutes":1.97,"words":591},"filePathRelative":"manual/configaccess.md","localizedDate":"December 20, 2025"}');export{u as comp,h as data};
