@@ -1,0 +1,6 @@
+import{_ as o,c as n,b as e,a,o as r}from"./app-_KJmaoua.js";const i={};function s(l,t){return r(),n("div",null,[t[0]||(t[0]=e("div",{class:"hint-container warning"},[e("p",{class:"hint-container-title"},"section under construction")],-1)),t[1]||(t[1]=e("ul",null,[e("li",null,"The page reloads every 5-10 seconds: it likely means you have 2 browser tabs or windows trying to access the page simultaneously"),e("li",null,"The OSC config is correct, Pipo data led shows it is sending, but I don't see the incoming data: only one app can open the receiving port at once, so make sure only one app is trying to read you part")],-1)),a(` For other page
+-> explain what is the grove standard
+-> how to select a module
+-> how to wire
+-> touch exemples
+-> how to wrap your motion strap `)])}const c=o(i,[["render",s]]),m=JSON.parse('{"path":"/manual/troubleshooting.html","title":"Troubleshooting","lang":"en-US","frontmatter":{"title":"Troubleshooting"},"git":{"createdTime":1772192236000,"updatedTime":1772192236000,"contributors":[{"name":"Rup","username":"Rup","email":"rupertrenevier@hotmail.com","commits":1,"url":"https://github.com/Rup"}]},"readingTime":{"minutes":0.32,"words":96},"filePathRelative":"manual/troubleshooting.md","localizedDate":"February 27, 2026"}');export{c as comp,m as data};

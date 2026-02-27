@@ -1,0 +1,16 @@
+import{_ as s,c as l,a as r,d as p,b as e,e as o,w as i,r as c,o as d,f as a}from"./app-_KJmaoua.js";const u={};function m(h,t){const n=c("RouteLink");return d(),l("div",null,[r(` ::: warning Prototype
+The modules are still under development. Hence these directions are only valid for protytpe testing.
+Note: some features are not yet implemented, and some are not mature yet.
+
+Any feedback is welcome !
+::: `),t[4]||(t[4]=p('<div class="hint-container tip"><p class="hint-container-title">Tips</p><p>You are warmly invited to join the Discord server <i class="fa-brands fa-discord"></i> to share your creations, provide feedback, and get support ! Server Invite: ZMVstP7zh9</p></div><div class="hint-container tip"><p class="hint-container-title">Tips</p><p>Tutorials and guidance <strong>videos</strong> are in construction <a href="https://www.youtube.com/playlist?list=PLm2zvOK3EIy8yXlshFEKDTlkETRyq2KYb" target="_blank" rel="noopener noreferrer">there</a></p></div><div class="hint-container warning"><p class="hint-container-title">Warning</p><p>This manual is still under construction. If some information is missing, you can ask on the discord or write me an email at pipointerfaces@protonmail.com</p></div><h2 id="pipo-presentations" tabindex="-1"><a class="header-anchor" href="#pipo-presentations"><span>Pipo presentations</span></a></h2>',4)),e("ul",null,[e("li",null,[o(n,{to:"/manual/quick-start-guides/common_intro.html"},{default:i(()=>t[0]||(t[0]=[a("Preliminary Informations")])),_:1})]),e("li",null,[o(n,{to:"/manual/quick-start-guides/motion_intro.html"},{default:i(()=>t[1]||(t[1]=[a("Pipo Motion intro")])),_:1})]),e("li",null,[o(n,{to:"/manual/quick-start-guides/analog_intro.html"},{default:i(()=>t[2]||(t[2]=[a("Pipo Analog intro")])),_:1})]),e("li",null,[o(n,{to:"/manual/quick-start-guides/range_intro.html"},{default:i(()=>t[3]||(t[3]=[a("Pipo Range intro")])),_:1})])]),r(` Changing settings can only be done over Wi-Fi on the configuration webpage, no matter the mode in use.
+
+- Switch it on with the small slider switch on the lower left side
+- MIDI data will flow right away through USB when sensors are excited (Pipo does not send data when nothing is moving/changing)
+
+To access the config page (to adjust MIDI output, enable OSC, etc...) :
+
+- Connect to the Pipo WiFi with your mobile or PC (look for a Wifi named Pipo-Motion, Pipo-Range, etc...)
+- Connect to it using the password pipo1234
+- Once you are connected, you can access the config page by entering the following appropriate URL in your web browser [pipo-motion.local](http://pipo-motion.local),[pipo-analog.local](http://pipo-analog.local) or [pipo-range.local](http://pipo-range.local)
+- You can now adjust all the settings and/or connect Pipo to your local network `),r(" <Catalog/> ")])}const f=s(u,[["render",m]]),w=JSON.parse('{"path":"/manual/","title":"Manual","lang":"en-US","frontmatter":{"title":"Manual","index":false},"git":{"createdTime":1772192236000,"updatedTime":1772192236000,"contributors":[{"name":"Rup","username":"Rup","email":"rupertrenevier@hotmail.com","commits":1,"url":"https://github.com/Rup"}]},"readingTime":{"minutes":0.91,"words":273},"filePathRelative":"manual/README.md","localizedDate":"February 27, 2026"}');export{f as comp,w as data};
