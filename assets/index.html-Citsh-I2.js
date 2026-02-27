@@ -1,4 +1,4 @@
-import{_ as s,c as l,a as r,d as p,b as e,e as o,w as i,r as c,o as d,f as a}from"./app-_KJmaoua.js";const u={};function m(h,t){const n=c("RouteLink");return d(),l("div",null,[r(` ::: warning Prototype
+import{_ as s,c as l,a as r,d as p,b as e,e as o,w as i,r as c,o as d,f as a}from"./app-BPmxp9Uy.js";const u={};function m(h,t){const n=c("RouteLink");return d(),l("div",null,[r(` ::: warning Prototype
 The modules are still under development. Hence these directions are only valid for protytpe testing.
 Note: some features are not yet implemented, and some are not mature yet.
 
@@ -13,4 +13,4 @@ To access the config page (to adjust MIDI output, enable OSC, etc...) :
 - Connect to the Pipo WiFi with your mobile or PC (look for a Wifi named Pipo-Motion, Pipo-Range, etc...)
 - Connect to it using the password pipo1234
 - Once you are connected, you can access the config page by entering the following appropriate URL in your web browser [pipo-motion.local](http://pipo-motion.local),[pipo-analog.local](http://pipo-analog.local) or [pipo-range.local](http://pipo-range.local)
-- You can now adjust all the settings and/or connect Pipo to your local network `),r(" <Catalog/> ")])}const f=s(u,[["render",m]]),w=JSON.parse('{"path":"/manual/","title":"Manual","lang":"en-US","frontmatter":{"title":"Manual","index":false},"git":{"createdTime":1772192236000,"updatedTime":1772192236000,"contributors":[{"name":"Rup","username":"Rup","email":"rupertrenevier@hotmail.com","commits":1,"url":"https://github.com/Rup"}]},"readingTime":{"minutes":0.91,"words":273},"filePathRelative":"manual/README.md","localizedDate":"February 27, 2026"}');export{f as comp,w as data};
+- You can now adjust all the settings and/or connect Pipo to your local network `),r(" <Catalog/> ")])}const f=s(u,[["render",m]]),w=JSON.parse('{"path":"/manual/","title":"Manual","lang":"en-US","frontmatter":{"title":"Manual","index":false},"git":{"createdTime":1772205154000,"updatedTime":1772205154000,"contributors":[{"name":"Rup","username":"Rup","email":"rupertrenevier@hotmail.com","commits":1,"url":"https://github.com/Rup"}]},"readingTime":{"minutes":0.91,"words":273},"filePathRelative":"manual/README.md","localizedDate":"February 27, 2026"}');export{f as comp,w as data};
