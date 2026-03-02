@@ -1,4 +1,4 @@
-import{_ as t,c as n,a as e,d as i,o as a}from"./app-BPmxp9Uy.js";const r={};function c(s,o){return a(),n("div",null,[e(` ::: warning Prototype
+import{_ as t,c as n,a as e,d as i,o as a}from"./app-BqzRe-l-.js";const r={};function c(s,o){return a(),n("div",null,[e(` ::: warning Prototype
 The modules are still under development. Hence these directions are only valid for protytpe testing.
 Note: some features are not yet implemented, and some are not mature yet.
 
@@ -19,4 +19,4 @@ The network IP address of the Pipo is displayed in the top Bar as &quot;STAIP&qu
     - enter your credentials
     - click save
     - if succesfull, Pipo will restart, and after a few seconds, the Wifi Led on the pipo should start slowly pulsing. This means pipo is connected and running
-  - If pipo can connect to previous wifi, it will do automatically `)])}const p=t(r,[["render",c]]),u=JSON.parse('{"path":"/manual/quick-start-guides/configaccess.html","title":"WiFi & Page access","lang":"en-US","frontmatter":{"title":"WiFi & Page access","order":2},"git":{"createdTime":1772205154000,"updatedTime":1772205154000,"contributors":[{"name":"Rup","username":"Rup","email":"rupertrenevier@hotmail.com","commits":1,"url":"https://github.com/Rup"}]},"readingTime":{"minutes":2.12,"words":635},"filePathRelative":"manual/quick-start-guides/configaccess.md","localizedDate":"February 27, 2026"}');export{p as comp,u as data};
+  - If pipo can connect to previous wifi, it will do automatically `)])}const p=t(r,[["render",c]]),u=JSON.parse('{"path":"/manual/quick-start-guides/configaccess.html","title":"WiFi & Page access","lang":"en-US","frontmatter":{"title":"WiFi & Page access","order":2},"git":{"createdTime":1772462876000,"updatedTime":1772462876000,"contributors":[{"name":"Rup","username":"Rup","email":"rupertrenevier@hotmail.com","commits":1,"url":"https://github.com/Rup"}]},"readingTime":{"minutes":2.12,"words":635},"filePathRelative":"manual/quick-start-guides/configaccess.md","localizedDate":"March 2, 2026"}');export{p as comp,u as data};
