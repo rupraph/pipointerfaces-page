@@ -1,0 +1,57 @@
+# Pipo Interfaces
+> Wireless MIDI and OSC controller modules for creative real-time interactions
+
+## Products
+- [Pipo Motion](https://pipointerfaces.com/modules/pipomotion.html): 9-axis wireless motion controller with gyroscope, accelerometer, and magnetometer for gesture control and orientation sensing. Uses ICM-20948 IMU. Price: $159 USD / €147 EUR.
+- [Pipo Analog](https://pipointerfaces.com/modules/pipoanalog.html): Versatile I/O board with 8 capacitive touch inputs and 8 voltage inputs (Grove compatible) for building custom MIDI/OSC interfaces. Price: $142 USD / €138 EUR.
+- [Pipo Range](https://pipointerfaces.com/modules/piporange.html): Distance sensing controller using Time-of-Flight sensor for Theremin-style control (0.75m close range) or proximity detection (up to 3m). Uses VL53L1CB sensor. Price: $148 USD / €132 EUR.
+
+## Key Features
+- Wireless connectivity: Wi-Fi (OSC), Bluetooth LE (MIDI), and USB (MIDI)
+- Web-based configuration interface (no app required)
+- Low latency: 5-20ms depending on sensor and protocol
+- Battery powered with 2.5+ hour runtime
+- Dual Wi-Fi mode: access point and station mode simultaneously
+- ESP32-S3-Mini based with dual-core 240MHz processor
+- Compatible with Ableton Live, TouchDesigner, Max, MadMapper, Bespoke, Pure Data, Isadora, VCV Rack
+
+## Documentation
+- [Getting Started Manual](https://pipointerfaces.com/manual/): Complete user guide and tutorials
+- [Quick Start Guides](https://pipointerfaces.com/manual/quick-start-guides/common_intro.html): Module-specific setup instructions
+- [MIDI Configuration](https://pipointerfaces.com/manual/connectivity/MIDI.html): USB MIDI setup and controls
+- [OSC Protocol](https://pipointerfaces.com/manual/connectivity/OSC.html): Wireless OSC configuration
+- [Bluetooth Setup](https://pipointerfaces.com/manual/connectivity/BLE.html): BLE MIDI pairing instructions
+- [Firmware Updates](https://pipointerfaces.com/update/): Browser-based update page
+
+## Technical Specifications
+- Processor: Espressif ESP32-S3-Mini (dual-core 240MHz)
+- Connectivity: Wi-Fi 2.4GHz + Bluetooth 5.0 Low Energy
+- Power: USB-C charging, onboard lithium battery charger
+- Dimensions: Motion/Range 50×38mm, Analog 52×52mm
+- Mounting: M3 mounting holes
+- Sensors: ICM-20948 (Motion), VL53L1CB (Range), capacitive touch + analog inputs (Analog)
+
+## Use Cases
+- Interactive art installations
+- Live music performance and MIDI controllers
+- Motion-controlled lighting systems
+- Educational electronics projects
+- Audiovisual performances
+- Experimental musical instruments
+- Creative coding and physical computing
+- Multimedia and performance art
+
+## Purchasing
+- Worldwide orders: [Crowd Supply](https://www.crowdsupply.com/pipo-interfaces/pipo)
+- European orders: [Pipo Shop](https://pipo-shop.bigcartel.com/)
+- Ships from Belgium, manufactured in partnership with Crowd Supply
+
+## Support & Community
+- Discord server: ZMVstP7zh9
+- Email: pipointerfaces@protonmail.com
+- Video tutorials: [YouTube playlist](https://www.youtube.com/playlist?list=PLm2zvOK3EIy8yXlshFEKDTlkETRyq2KYb)
+- Instagram: @pipo_interfaces
+
+## Creator
+Designed and developed by Rupert Renevier (RupR) in Belgium.
+Pipo Interfaces creates wireless sensor modules for creative applications, bridging physical and digital worlds.
