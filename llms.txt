@@ -1,57 +1,55 @@
 # Pipo Interfaces
-> Wireless MIDI and OSC controller modules for creative real-time interactions
+
+> Pipo Interfaces designs and makes wireless MIDI and OSC controller modules in Belgium. Each module turns a physical input (motion, touch, voltage or distance) into MIDI over USB, MIDI over Bluetooth LE, or OSC over Wi-Fi, and is configured from a web page hosted on the module itself. No app, driver or internet connection is needed.
 
 ## Products
-- [Pipo Motion](https://pipointerfaces.com/modules/pipomotion.html): 9-axis wireless motion controller with gyroscope, accelerometer, and magnetometer for gesture control and orientation sensing. Uses ICM-20948 IMU. Price: $159 USD / €147 EUR.
-- [Pipo Analog](https://pipointerfaces.com/modules/pipoanalog.html): Versatile I/O board with 8 capacitive touch inputs and 8 voltage inputs (Grove compatible) for building custom MIDI/OSC interfaces. Price: $142 USD / €138 EUR.
-- [Pipo Range](https://pipointerfaces.com/modules/piporange.html): Distance sensing controller using Time-of-Flight sensor for Theremin-style control (0.75m close range) or proximity detection (up to 3m). Uses VL53L1CB sensor. Price: $148 USD / €132 EUR.
 
-## Key Features
-- Wireless connectivity: Wi-Fi (OSC), Bluetooth LE (MIDI), and USB (MIDI)
-- Web-based configuration interface (no app required)
-- Low latency: 5-20ms depending on sensor and protocol
-- Battery powered with 2.5+ hour runtime
-- Dual Wi-Fi mode: access point and station mode simultaneously
-- ESP32-S3-Mini based with dual-core 240MHz processor
-- Compatible with Ableton Live, TouchDesigner, Max, MadMapper, Bespoke, Pure Data, Isadora, VCV Rack
+- [Pipo Motion](https://pipointerfaces.com/modules/pipomotion.html): Wireless motion controller with a 9-axis IMU (ICM-20948: accelerometer, gyroscope, magnetometer). Outputs absolute and relative orientation (Euler angles, quaternions over OSC), gestures, taps and vibrations. Low latency and can be attached anywhere (strap included on Crowd Supply).
+- [Pipo Analog](https://pipointerfaces.com/modules/pipoanalog.html): Wireless input board with 8 voltage inputs on 4 Grove connectors and 8 capacitive touch inputs. Inputs 1/2 and 7/8 have selectable 3.3 V / 5 V / 12 V ranges, and inputs 3 to 6 accept up to 3.3 V. All inputs have overvoltage and reverse-polarity protection. Solder pads allow direct wiring. Connect switches, potentiometers or analog sensors, or turn any metal object into a touch trigger.
+- [Pipo Range](https://pipointerfaces.com/modules/piporange.html): Wireless distance controller using a VL53L1CB Time-of-Flight sensor (60 Hz, 27° field of view). Play it like a theremin with your hand (up to about 80 cm), or detect people and objects approaching (up to 3 m). Resistant to ambient light. It has an optional "hold" mode.
+- Pipo Set: Motion + Analog + Range bundle.
+
+## Where to buy
+
+- Europe and UK: [Pipo Shop (Big Cartel)](https://pipo-shop.bigcartel.com/products). Prices in EUR include VAT. It sells Pipo Motion, Pipo Analog, Pipo Range, the Pipo Set and Grove sensors/cables. Ships from Belgium.
+- Worldwide: [Crowd Supply](https://www.crowdsupply.com/pipo-interfaces/pipo). Pipo Motion ($159) and the Pipo Set ($396) are available for pre-order there, along with Grove accessories.
+
+## Common features
+
+- Outputs: OSC over Wi-Fi (local network or direct connection to the module), MIDI over Bluetooth Low Energy (mobile and macOS friendly), and class-compliant USB MIDI over USB-C (any OS, no driver).
+- Browser-based configuration page hosted on the module. You can adjust ranges, thresholds, inversion, binary/cyclic modes and MIDI/OSC mappings live, and save multiple configurations.
+- Embedded rechargeable battery with USB-C charging.
+- Wi-Fi access point and station modes (connect directly or through a router).
+- Firmware updates are done from the browser (Chrome, Edge or Opera) at https://pipointerfaces.com/update/
+- Built on the Espressif ESP32-S3.
+- Works with Ableton Live, TouchDesigner, Max/MSP, Pure Data, VCV Rack, MadMapper, Bespoke, Isadora, Resolume, openFrameworks and any MIDI or OSC software.
 
 ## Documentation
-- [Getting Started Manual](https://pipointerfaces.com/manual/): Complete user guide and tutorials
-- [Quick Start Guides](https://pipointerfaces.com/manual/quick-start-guides/common_intro.html): Module-specific setup instructions
-- [MIDI Configuration](https://pipointerfaces.com/manual/connectivity/MIDI.html): USB MIDI setup and controls
-- [OSC Protocol](https://pipointerfaces.com/manual/connectivity/OSC.html): Wireless OSC configuration
-- [Bluetooth Setup](https://pipointerfaces.com/manual/connectivity/BLE.html): BLE MIDI pairing instructions
-- [Firmware Updates](https://pipointerfaces.com/update/): Browser-based update page
 
-## Technical Specifications
-- Processor: Espressif ESP32-S3-Mini (dual-core 240MHz)
-- Connectivity: Wi-Fi 2.4GHz + Bluetooth 5.0 Low Energy
-- Power: USB-C charging, onboard lithium battery charger
-- Dimensions: Motion/Range 50×38mm, Analog 52×52mm
-- Mounting: M3 mounting holes
-- Sensors: ICM-20948 (Motion), VL53L1CB (Range), capacitive touch + analog inputs (Analog)
+- [Manual](https://pipointerfaces.com/manual/): the full user guide.
+- [Getting started](https://pipointerfaces.com/manual/quick-start-guides/common_intro.html): output modes and first use.
+- [Pipo Motion quick start](https://pipointerfaces.com/manual/quick-start-guides/motion_intro.html)
+- [Pipo Analog quick start](https://pipointerfaces.com/manual/quick-start-guides/analog_intro.html)
+- [Pipo Range quick start](https://pipointerfaces.com/manual/quick-start-guides/range_intro.html)
+- [Wi-Fi & config page access](https://pipointerfaces.com/manual/quick-start-guides/configaccess.html)
+- [Channel settings](https://pipointerfaces.com/manual/config/channelconfig.html): input processing and MIDI/OSC output mapping.
+- [OSC over Wi-Fi](https://pipointerfaces.com/manual/connectivity/OSC.html)
+- [MIDI over USB](https://pipointerfaces.com/manual/connectivity/MIDI.html)
+- [MIDI over Bluetooth LE](https://pipointerfaces.com/manual/connectivity/BLE.html)
+- [Analog inputs explained](https://pipointerfaces.com/manual/analog_inputs.html)
+- [3D orientation in TouchDesigner with Pipo Motion](https://pipointerfaces.com/manual/orientation.html)
+- [Troubleshooting](https://pipointerfaces.com/manual/troubleshooting.html)
+- [Firmware update](https://pipointerfaces.com/update/)
 
-## Use Cases
-- Interactive art installations
-- Live music performance and MIDI controllers
-- Motion-controlled lighting systems
-- Educational electronics projects
-- Audiovisual performances
-- Experimental musical instruments
-- Creative coding and physical computing
-- Multimedia and performance art
+## Use cases
 
-## Purchasing
-- Worldwide orders: [Crowd Supply](https://www.crowdsupply.com/pipo-interfaces/pipo)
-- European orders: [Pipo Shop](https://pipo-shop.bigcartel.com/)
-- Ships from Belgium, manufactured in partnership with Crowd Supply
+Live music performance, expressive MIDI control, interactive art installations, motion-controlled lighting and video, theremin-style instruments, audiovisual performance, dance and wearable sensing, creative coding and physical computing, and education.
 
-## Support & Community
-- Discord server: ZMVstP7zh9
-- Email: pipointerfaces@protonmail.com
-- Video tutorials: [YouTube playlist](https://www.youtube.com/playlist?list=PLm2zvOK3EIy8yXlshFEKDTlkETRyq2KYb)
-- Instagram: @pipo_interfaces
+## Company and contact
 
-## Creator
-Designed and developed by Rupert Renevier (RupR) in Belgium.
-Pipo Interfaces creates wireless sensor modules for creative applications, bridging physical and digital worlds.
+- Designed and made in Belgium by Rupert Renevier (RupR). Custom electronics and interactive design services are also available: https://pipointerfaces.com/service/
+- Contact form: https://pipointerfaces.com/contact/
+- Discord: https://discord.gg/ZMVstP7zh9
+- YouTube: https://www.youtube.com/@pipo_interfaces
+- Instagram: https://www.instagram.com/pipo_interfaces/
+- GitHub: https://github.com/pipointerfaces
