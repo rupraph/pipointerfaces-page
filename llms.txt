@@ -27,6 +27,8 @@
 ## Documentation
 
 - [Manual](https://pipointerfaces.com/manual/): the full user guide.
+- [FAQ](https://pipointerfaces.com/faq/): specs and compatibility questions (using several Pipos at once, OSC vs USB vs Bluetooth MIDI, update rate and latency, battery life, ordering, shipping and VAT invoices).
+- [Troubleshooting](https://pipointerfaces.com/manual/troubleshooting.html): Pipo not starting, config page access, OSC data not arriving through a router, Bluetooth MIDI pairing.
 - [Getting started](https://pipointerfaces.com/manual/quick-start-guides/common_intro.html): output modes and first use.
 - [Pipo Motion quick start](https://pipointerfaces.com/manual/quick-start-guides/motion_intro.html)
 - [Pipo Analog quick start](https://pipointerfaces.com/manual/quick-start-guides/analog_intro.html)
